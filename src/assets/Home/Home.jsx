@@ -74,6 +74,7 @@ const Home = () => {
     <>
       <div className="wrapper">
       <div className="search-container">
+      
     <input className="search-box" type="search" placeholder="Search city" onChange= { (e) => setSearch(e.target.value)}  />
    <img src='Images/searchicon.png' className="search-icon" onClick={getLocation} />
   </div>
